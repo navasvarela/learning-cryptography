@@ -1,4 +1,3 @@
-docs/_site
-_site
-docs/.sass-cache
+./.saas_cache/
+./_site/
 .ipynb_checkpoints/
