@@ -1,6 +1,6 @@
 ---
-title: What Is jekyll-latex?
-author: John Doe
+title: A gentle introduction to Elliptic Curves
+author: Juan M Salamanca
 layout: post
 ---
 
@@ -11,33 +11,16 @@ $$ J(\theta) =\frac{1}{2m}
 y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j $$
 {% endabstract %}
 
-```
-{% raw %}
-{% abstract %}
-This project is called jekyll-latex. It features the beautiful
-typography of <span class="latex">L<span>a</span>T<span>
-e</span>X</span> and it includes MathJax so you can render
-gorgeous equations like this one below:
-$$ J(\theta) =\frac{1}{2m}
-[\sum^m_{i=1}(h_\theta(x^{(i)}) -
-y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j $$
-{% endabstract %}
-{% endraw %}
-```
+
 
 # Table of Contents
 * TOC
 {:toc}
 
-```
-{% raw %}
-# Table of Contents
-* TOC
-{:toc}
-{% endraw %}
-```
 
-# Theorems, Definitions, and Proofs
+# A bit of history
+
+
 
 {% theorem %}
 The real numbers $\mathbb{R}$ are uncountable
