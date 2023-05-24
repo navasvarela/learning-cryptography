@@ -3,6 +3,7 @@ title:              "Learning Cryptography the Hard Way"
 description:        "Articles and resources about cryptography"
 google_verify:      abc123 # Put your Google Verification here
 google_analytics:   UA-123
+encoding:           utf-8
 
 # Author Info
 author_name:        "Juan M Salamanca" # Your name here

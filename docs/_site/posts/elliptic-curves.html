@@ -18,11 +18,11 @@
     <meta name="google-site-verification" content="abc123">
 
 
-<link rel="icon" href="https://navasvarela.github.io/learning-cryptography//assets/favicon.png">
-<link rel="apple-touch-icon" href="https://navasvarela.github.io/learning-cryptography//assets/touch-icon.png">
-<link rel="stylesheet" href="https://navasvarela.github.io/learning-cryptography//assets/core.css">
-<link rel="canonical" href="https://navasvarela.github.io/learning-cryptography//posts/elliptic-curves">
-<link rel="alternate" type="application/atom+xml" title="Learning Cryptography the Hard Way" href="https://navasvarela.github.io/learning-cryptography//feed.xml"/>
+<link rel="icon" href="http://localhost:4000/assets/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:4000/assets/touch-icon.png">
+<link rel="stylesheet" href="http://localhost:4000/assets/core.css">
+<link rel="canonical" href="http://localhost:4000/posts/elliptic-curves">
+<link rel="alternate" type="application/atom+xml" title="Learning Cryptography the Hard Way" href="http://localhost:4000/feed.xml"/>
 
 
 
@@ -36,6 +36,15 @@
 </script>
     <script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+	<script src="https://unpkg.com/mermaid@latest/dist/mermaid.min.js"></script>
+<script>
+  $(document).ready(function () {
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: "default",
+    });
+  });
+</script>
 </head>
 
 <body>
@@ -70,23 +79,10 @@ $$ J(\theta) =\frac{1}{2m}
 y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j $$
 </p></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-{% abstract %}
-This project is called jekyll-latex. It features the beautiful
-typography of &lt;span class="latex"&gt;L&lt;span&gt;a&lt;/span&gt;T&lt;span&gt;
-e&lt;/span&gt;X&lt;/span&gt; and it includes MathJax so you can render
-gorgeous equations like this one below:
-$$ J(\theta) =\frac{1}{2m}
-[\sum^m_{i=1}(h_\theta(x^{(i)}) -
-y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j $$
-{% endabstract %}
-
-</code></pre></div></div>
-
 <h1 id="table-of-contents">Table of Contents</h1>
 <ul id="markdown-toc">
   <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of Contents</a></li>
-  <li><a href="#theorems-definitions-and-proofs" id="markdown-toc-theorems-definitions-and-proofs">Theorems, Definitions, and Proofs</a></li>
+  <li><a href="#a-bit-of-history" id="markdown-toc-a-bit-of-history">A bit of history</a></li>
   <li><a href="#html-elements" id="markdown-toc-html-elements">HTML Elements</a>    <ul>
       <li><a href="#text-formatting" id="markdown-toc-text-formatting">Text Formatting</a></li>
       <li><a href="#definition-lists" id="markdown-toc-definition-lists">Definition Lists</a></li>
@@ -102,14 +98,7 @@ y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j $$
   </li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-# Table of Contents
-* TOC
-{:toc}
-
-</code></pre></div></div>
-
-<h1 id="theorems-definitions-and-proofs">Theorems, Definitions, and Proofs</h1>
+<h1 id="a-bit-of-history">A bit of history</h1>
 
 <div class="theorem">
 The real numbers $\mathbb{R}$ are uncountable
@@ -295,12 +284,17 @@ sharpening the axe.
 
 <div class="page-navigation">
     
-    <a class="home" href="https://navasvarela.github.io/learning-cryptography/" title="Back to Homepage">Home</a>
+        <a class="next" href="http://localhost:4000/posts/merkletrees" title="NEXT: Merkle Trees">&lt;&lt;</a>
+        <span>
+            &middot;
+        </span>
+    
+    <a class="home" href="http://localhost:4000" title="Back to Homepage">Home</a>
     
         <span>
             &middot;
         </span>
-        <a class="prev" href="https://navasvarela.github.io/learning-cryptography//posts/discrete-logarithms" title="PREV: Intro to Discrete Logarithms">&gt;&gt;</a>
+        <a class="prev" href="http://localhost:4000/posts/discrete-logarithms" title="PREV: Intro to Discrete Logarithms">&gt;&gt;</a>
     
 </div>
 	</main>

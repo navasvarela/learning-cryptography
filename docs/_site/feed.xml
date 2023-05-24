@@ -3,7 +3,30 @@
   <channel>
     <title>Learning Cryptography the Hard Way</title>
     <description>Articles and resources about cryptography</description>
-    <link>https://navasvarela.github.io/learning-cryptography/</link>
+    <link>http://localhost:4000</link>
+    
+      
+        <item>
+          <title>Merkle Trees</title>
+          <description>&lt;div class=&quot;abstract&quot;&gt;&lt;h5&gt;Abstract&lt;/h5&gt;&lt;p&gt;
+Merkle trees are widely used in cryptographic applications, and more recently to validate blockchain transactions.
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD;
+    A--&amp;gt;B;
+    A--&amp;gt;C;
+    B--&amp;gt;D;
+    C--&amp;gt;D;
+&lt;/div&gt;
+</description>
+          <pubDate>2023-05-24T00:00:00+01:00</pubDate>
+          <link>http://localhost:4000/posts/merkletrees</link>
+          <guid isPermaLink="true">http://localhost:4000/posts/merkletrees</guid>
+        </item>
+      
     
       
         <item>
@@ -15,23 +38,10 @@ $$ J(\theta) =\frac{1}{2m}
 y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j $$
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-{% abstract %}
-This project is called jekyll-latex. It features the beautiful
-typography of &amp;lt;span class=&quot;latex&quot;&amp;gt;L&amp;lt;span&amp;gt;a&amp;lt;/span&amp;gt;T&amp;lt;span&amp;gt;
-e&amp;lt;/span&amp;gt;X&amp;lt;/span&amp;gt; and it includes MathJax so you can render
-gorgeous equations like this one below:
-$$ J(\theta) =\frac{1}{2m}
-[\sum^m_{i=1}(h_\theta(x^{(i)}) -
-y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j $$
-{% endabstract %}
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
 &lt;h1 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h1&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#table-of-contents&quot; id=&quot;markdown-toc-table-of-contents&quot;&gt;Table of Contents&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#theorems-definitions-and-proofs&quot; id=&quot;markdown-toc-theorems-definitions-and-proofs&quot;&gt;Theorems, Definitions, and Proofs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#a-bit-of-history&quot; id=&quot;markdown-toc-a-bit-of-history&quot;&gt;A bit of history&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#html-elements&quot; id=&quot;markdown-toc-html-elements&quot;&gt;HTML Elements&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#text-formatting&quot; id=&quot;markdown-toc-text-formatting&quot;&gt;Text Formatting&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#definition-lists&quot; id=&quot;markdown-toc-definition-lists&quot;&gt;Definition Lists&lt;/a&gt;&lt;/li&gt;
@@ -47,14 +57,7 @@ y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j $$
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-# Table of Contents
-* TOC
-{:toc}
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;theorems-definitions-and-proofs&quot;&gt;Theorems, Definitions, and Proofs&lt;/h1&gt;
+&lt;h1 id=&quot;a-bit-of-history&quot;&gt;A bit of history&lt;/h1&gt;
 
 &lt;div class=&quot;theorem&quot;&gt;
 The real numbers $\mathbb{R}$ are uncountable
@@ -236,8 +239,8 @@ sharpening the axe.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
           <pubDate>2023-03-06T00:00:00+00:00</pubDate>
-          <link>https://navasvarela.github.io/learning-cryptography//posts/elliptic-curves</link>
-          <guid isPermaLink="true">https://navasvarela.github.io/learning-cryptography//posts/elliptic-curves</guid>
+          <link>http://localhost:4000/posts/elliptic-curves</link>
+          <guid isPermaLink="true">http://localhost:4000/posts/elliptic-curves</guid>
         </item>
       
     
@@ -472,8 +475,8 @@ sharpening the axe.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
           <pubDate>2023-03-06T00:00:00+00:00</pubDate>
-          <link>https://navasvarela.github.io/learning-cryptography//posts/discrete-logarithms</link>
-          <guid isPermaLink="true">https://navasvarela.github.io/learning-cryptography//posts/discrete-logarithms</guid>
+          <link>http://localhost:4000/posts/discrete-logarithms</link>
+          <guid isPermaLink="true">http://localhost:4000/posts/discrete-logarithms</guid>
         </item>
       
     

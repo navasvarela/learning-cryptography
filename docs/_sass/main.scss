@@ -257,7 +257,7 @@ dl dd {
 	position: relative;
 }
 .proof::before {
-	content: "Proof. " attr(title);
+	content: "Proof. " attr(title);
 	font-style: italic;
 }
 .proof:after {
